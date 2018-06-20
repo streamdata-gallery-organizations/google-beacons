@@ -4,7 +4,7 @@ x-collection-name: Google Beacons
 x-complete: 1
 info:
   title: Google Proximity Beacon
-  description: registers-manages-indexes-and-searches-beacons
+  description: registers-manages-indexes-and-searches-beacons-
   contact:
     name: Google
     url: https://google.com
