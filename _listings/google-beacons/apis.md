@@ -11,13 +11,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Beacons
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Proximity Beacon API Get Observed Beacon Info
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Get Observed Beacon Info
+  x-api-slug: v1beta1beaconinfogetforobserved-post
   description: |-
     Given one or more beacon observations, returns any beacon information
     and attachments accessible to your application. Authorize by using the
@@ -25,13 +25,14 @@ apis:
     for the application.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/beaconinfo:getforobserved
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconinfogetforobserved-post-openapi.md
-- name: Google Proximity Beacon API Search Beacons
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Search Beacons
+  x-api-slug: v1beta1beacons-get
   description: |-
     Searches the beacon registry for beacons that match the given search
     criteria. Only those beacons that the client has permission to list
@@ -42,13 +43,14 @@ apis:
     permissions in the Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/beacons
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beacons-get-openapi.md
-- name: Google Proximity Beacon API Register Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Register Beacon
+  x-api-slug: v1beta1beaconsregister-post
   description: |-
     Registers a previously unregistered beacon given its `advertisedId`.
     These IDs are unique within the system. An ID can be registered only once.
@@ -58,13 +60,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/beacons:register
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconsregister-post-openapi.md
-- name: Google Proximity Beacon API Get Beacon Parameters
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Get Beacon Parameters
+  x-api-slug: v1beta1eidparams-get
   description: |-
     Gets the Proximity Beacon API's current public key and associated
     parameters used to initiate the Diffie-Hellman key exchange required to
@@ -75,13 +78,14 @@ apis:
     Eddystone-EID beacon.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/eidparams
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1eidparams-get-openapi.md
-- name: Google Proximity Beacon API Get Namespace
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Get Namespace
+  x-api-slug: v1beta1namespaces-get
   description: |-
     Lists all attachment namespaces owned by your Google Developers Console
     project. Attachment data associated with a beacon must include a
@@ -92,13 +96,14 @@ apis:
     permissions in the Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/namespaces
-  tags: Namespace
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1namespaces-get-openapi.md
-- name: Google Proximity Beacon API Delete Attachment
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Delete Attachment
+  x-api-slug: v1beta1attachmentname-delete
   description: |-
     Deletes the specified attachment for the given beacon. Each attachment has
     a unique attachment name (`attachmentName`) which is returned when you
@@ -111,13 +116,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{attachmentName}
-  tags: Attachment
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1attachmentname-delete-openapi.md
-- name: Google Proximity Beacon API Delete Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Delete Beacon
+  x-api-slug: v1beta1beaconname-delete
   description: |-
     Deletes the specified beacon including all diagnostics data for the beacon
     as well as any attachments on the beacon (including those belonging to
@@ -128,13 +134,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconname-delete-openapi.md
-- name: Google Proximity Beacon API Get Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Get Beacon
+  x-api-slug: v1beta1beaconname-get
   description: |-
     Returns detailed information about the specified beacon.
 
@@ -149,13 +156,14 @@ apis:
     beacon's ephemeral Eddystone-EID broadcast will receive an error.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconname-get-openapi.md
-- name: Google Proximity Beacon API Update Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Update Beacon
+  x-api-slug: v1beta1beaconname-put
   description: |-
     Updates the information about the specified beacon. **Any field that you do
     not populate in the submitted beacon will be permanently erased**, so you
@@ -170,13 +178,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconname-put-openapi.md
-- name: Google Proximity Beacon API Get Attachments
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Get Attachments
+  x-api-slug: v1beta1beaconnameattachments-get
   description: |-
     Returns the attachments for the specified beacon that match the specified
     namespaced-type pattern.
@@ -191,13 +200,14 @@ apis:
     permissions in the Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}/attachments
-  tags: Attachment
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnameattachments-get-openapi.md
-- name: Google Proximity Beacon API Add Attachment
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Add Attachment
+  x-api-slug: v1beta1beaconnameattachments-post
   description: |-
     Associates the given data with the specified beacon. Attachment data must
     contain two parts:
@@ -217,13 +227,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}/attachments
-  tags: Attachment
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnameattachments-post-openapi.md
-- name: Google Proximity Beacon API Delete Attachments
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Delete Attachments
+  x-api-slug: v1beta1beaconnameattachmentsbatchdelete-post
   description: |-
     Deletes multiple attachments on a given beacon. This operation is
     permanent and cannot be undone.
@@ -238,13 +249,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}/attachments:batchDelete
-  tags: Attachment
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnameattachmentsbatchdelete-post-openapi.md
-- name: Google Proximity Beacon API Get Diagnostics
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Get Diagnostics
+  x-api-slug: v1beta1beaconnamediagnostics-get
   description: |-
     List the diagnostics for a single beacon. You can also list diagnostics for
     all the beacons owned by your Google Developers Console project by using
@@ -255,13 +267,14 @@ apis:
     permissions in the Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}/diagnostics
-  tags: Diagnostic
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnamediagnostics-get-openapi.md
-- name: Google Proximity Beacon API Activate Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Activate Beacon
+  x-api-slug: v1beta1beaconnameactivate-post
   description: |-
     Activates a beacon. A beacon that is active will return information
     and attachment data when queried via `beaconinfo.getforobserved`.
@@ -273,13 +286,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}:activate
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnameactivate-post-openapi.md
-- name: Google Proximity Beacon API Deactivate Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Deactivate Beacon
+  x-api-slug: v1beta1beaconnamedeactivate-post
   description: |-
     Deactivates a beacon. Once deactivated, the API will not return
     information nor attachment data for the beacon when queried via
@@ -291,13 +305,14 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}:deactivate
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnamedeactivate-post-openapi.md
-- name: Google Proximity Beacon API Decomission Beacon
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Decomission Beacon
+  x-api-slug: v1beta1beaconnamedecommission-post
   description: |-
     Decommissions the specified beacon in the service. This beacon will no
     longer be returned from `beaconinfo.getforobserved`. This operation is
@@ -309,37 +324,30 @@ apis:
     Google Developers Console project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{beaconName}:decommission
-  tags: Beacon
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1beaconnamedecommission-post-openapi.md
-- name: Google Proximity Beacon API Update Namespace
-  x-api-slug: google-proximity-beacon-api
+- name: Google Proximity Beacon - Update Namespace
+  x-api-slug: v1beta1namespacename-put
   description: |-
     Updates the information about the specified namespace. Only the namespace
     visibility can be updated.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
   humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com////v1beta1/{namespaceName}
-  tags: Namespace
+  baseURL: ://proximitybeacon.googleapis.com//
+  tags: Beacons, Sensors, Internet of Things, Google APIs, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/v1beta1namespacename-put-openapi.md
-- name: Google Proximity Beacon API
-  x-api-slug: google-proximity-beacon-api
-  description: The Proximity Beacon API is a part of the Bluetooth low energy (BLE)beacon
-    platform, which also includesEddystone, an open beacon format from Google. The
-    Proximity Beacon API is a cloud service that allows you to manage data associated
-    with your BLE beacons using a REST interface.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-beacons.jpg
-  humanURL: https://developers.google.com/beacons/
-  baseURL: ://proximitybeacon.googleapis.com//
-  tags: Google Beacons
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-beacons/master/_listings/google-beacons/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.apps.script.execution.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.beacons.stack.network
 - type: x-dashboard
   url: https://developers.google.com/beacons/dashboard/
 - type: x-website
